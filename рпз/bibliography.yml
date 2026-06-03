@@ -1,0 +1,114 @@
+sae-definitions:
+  type: Web
+  title: Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles
+  url:
+    value: https://www.sae.org/standards/j3016_202104-taxonomy-definitions-terms-related-driving-automation-systems-road-motor-vehicles
+    date: 2025-11-25
+waymo-website:
+  type: Web
+  title: Waymo Self-Driving Car Technology
+  url:
+    value: https://waymo.com/waymo-driver/
+    date: 2025-11-25
+tesla-website:
+  type: Web
+  title: Tesla Full Self-Driving
+  url:
+    value: https://www.tesla.com/fsd
+    date: 2025-12-10
+cruise-website:
+  type: Web
+  title: Cruise Autonomous Driving
+  url:
+    value: https://www.gm.com/innovation/autonomous-driving
+    date: 2025-12-10
+apollo-website:
+  type: Web
+  title: Apollo Self Driving
+  url:
+    value: https://www.apollo.auto/en/apollo-self-driving
+    date: 2025-12-10
+apollo-paper:
+  type: Web
+  title: Initial Architecture Analysis of the Apollo Platform
+  url:
+    value: https://cisc326teamname.wordpress.com/wp-content/uploads/2022/02/a1-326.pdf
+    date: 2025-12-13
+yandex-website:
+  type: Web
+  title: Автономный транспорт Yandex
+  url:
+    value: https://autonomy.yandex.ru/
+    date: 2025-12-14
+yandex-blog:
+  type: Web
+  title: Как устроен робот-доставщик Яндекса - от восприятия до планирования движения
+  url:
+    value: https://habr.com/ru/companies/yandex/articles/845958/
+    date: 2025-12-15
+yandex-blog2:
+  type: Web
+  title: Как мы создаём HD-карты для автономного транспорта - устройство map-editor
+  url:
+    value: https://habr.com/ru/companies/yandex/articles/967698/
+    date: 2025-12-15
+datasheet-stm32:
+  type: Web
+  title: Документация STM32F411CEU6
+  url:
+    value: https://www.st.com/resource/en/datasheet/stm32f411ce.pdf
+    date: 2025-10-10
+description-с:
+  type: Web
+  title: Справочник по языку программирования C
+  url:
+    value: https://www.w3schools.com/c/c_intro.php
+    date: 2025-10-24
+datasheet-drv8833:
+  type: Web
+  title: Документация DRV8833
+  url:
+    value: https://www.ti.com/lit/ds/symlink/drv8833.pdf
+    date: 2025-10-10
+datasheet-dsm44:
+  type: Web
+  title: Документация DSM44
+  url:
+    value: https://www.pololu.com/file/0J1754/DSM44.pdf
+    date: 2025-10-10
+description-hal:
+  type: Web
+  title: Описание библиотеки STM32 HAL
+  url:
+    value: https://www.st.com/resource/en/user_manual/um1725-description-of-stm32f4-hal-and-lowlayer-drivers-stmicroelectronics.pdf
+    date: 2025-10-10
+description-flask:
+  type: Web
+  title: Описание библиотеки Flask
+  url:
+    value: https://flask.palletsprojects.com/en/stable/
+    date: 2025-10-24
+datasheet-ov5647:
+  type: Web
+  title: Документация OV5647
+  url:
+    value: https://cdn.sparkfun.com/datasheets/Dev/RaspberryPi/ov5647_full.pdf
+    date: 2025-10-24
+datasheet-dw1000:
+  type: Web
+  title: Документация DW1000
+  url:
+    value: https://www.qorvo.com/products/d/da007948
+    date: 2026-01-22
+datasheet-icm45686:
+  type: Web
+  title: Документация ICM-45686
+  url:
+    value: https://invensense.tdk.com/en-us/download-resource/ds-000577-icm-45686-datasheet-0
+    date: 2026-01-25
+datasheet-ld06:
+  type: Web
+  title: Документация LD06
+  url:
+    value: https://www.inno-maker.com/wp-content/uploads/2020/11/LDROBOT_LD06_Datasheet.pdf
+    date: 2026-02-05
