@@ -7,6 +7,8 @@ magick -density 100 'Функциональная схема ПО.pdf' -backgrou
 magick -density 100 'Функциональная схема автомобиля.pdf' -background white -alpha remove -rotate 90 scheme2.png
 magick -density 100 'Принципиальная схема.pdf' -background white -alpha remove -rotate 90 scheme3.png
 magick -density 100 'Фотографии макета.pdf' -background white -alpha remove -rotate 90 scheme4.png
+# magick -density 100 'Формы интерфейса.pdf' -background white -alpha remove -rotate 90 scheme5.png
+magick -density 100 'Результаты анализа.pdf' -background white -alpha remove -rotate 90 scheme6.png
 
 echo компилируем rpz.typ в pdf ...
 typst compile rpz.typ
