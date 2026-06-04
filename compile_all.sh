@@ -1,15 +1,15 @@
-echo обрезаем титулы ...
-magick -density 300 тз/титул_тз.pdf -crop 2008x3030+295+240 тз/титул_тз.jpg
-magick -density 300 руководство/титул_руководства.pdf -crop 2008x3030+295+240 руководство/титул_руководства.jpg
-magick -density 300 Задание-календарный\ план.pdf -crop 2008x3030+295+240 Задание-календарный\ план_%d.jpg
+# echo обрезаем титулы ...
+# magick -density 300 тз/титул_тз.pdf -crop 2008x3030+295+240 тз/титул_тз.jpg
+# magick -density 300 руководство/титул_руководства.pdf -crop 2008x3030+295+240 руководство/титул_руководства.jpg
+# magick -density 300 Задание-календарный\ план.pdf -crop 2008x3030+295+240 Задание-календарный\ план_%d.jpg
 
 echo конвертируем листы в картинки ...
-magick -density 100 'Функциональная схема ПО.pdf' -background white -alpha remove -rotate 90 scheme1.png
-magick -density 100 'Функциональная схема автомобиля.pdf' -background white -alpha remove -rotate 90 scheme2.png
-magick -density 100 'Принципиальная схема.pdf' -background white -alpha remove -rotate 90 scheme3.png
-magick -density 100 'Фотографии макета.pdf' -background white -alpha remove -rotate 90 scheme4.png
-magick -density 100 'Формы интерфейса.pdf' -background white -alpha remove -rotate 90 scheme5.png
-magick -density 100 'Результаты анализа.pdf' -background white -alpha remove -rotate 90 scheme6.png
+magick -density 100 'Функциональная схема ПО.pdf' -background white -alpha remove -rotate -90 scheme6.png
+magick -density 100 'Функциональная схема автомобиля.pdf' -background white -alpha remove -rotate -90 scheme2.png
+magick -density 100 'Принципиальная схема.pdf' -background white -alpha remove -rotate -90 scheme3.png
+magick -density 100 'Фотографии макета.pdf' -background white -alpha remove -rotate -90 scheme4.png
+magick -density 100 'Формы интерфейса.pdf' -background white -alpha remove -rotate -90 scheme5.png
+magick -density 100 'Результаты анализа.pdf' -background white -alpha remove -rotate -90 scheme1.png
 
 echo компилируем rpz.typ в pdf ...
 typst compile rpz.typ
